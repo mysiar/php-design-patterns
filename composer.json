@@ -1,0 +1,29 @@
+{
+    "name": "mysiar/php-design-patterns",
+    "description": "PHP desing patterns",
+    "type": "project",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "mysiar/coding-standard": "^1.0",
+        "mysiar/test-bundle": "^0.0.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Synowiec",
+            "email": "psynowiec@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mysiar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mysiar\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+/vendor/
+.idea/
+composer.lock
+tests/app/cache/
+tests/app/public/bundles/
+tests/app/log/
+tests/app/.env
+var/
+phpunit.xml
+behat.yml
+/.phpunit.result.cache
