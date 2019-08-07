@@ -13,8 +13,7 @@ class AbstractFactoryTest extends TestCase
 {
     /** @var CarFactory */
     private $factory;
-
-
+    
     protected function setUp(): void
     {
         $this->factory = new CarFactory();
