@@ -7,9 +7,9 @@ use DesignPattern\Creational\AbstractFactory\BmwCar;
 use DesignPattern\Creational\AbstractFactory\CarFactory;
 use DesignPattern\Creational\AbstractFactory\CarInterface;
 use DesignPattern\Creational\AbstractFactory\JeepCar;
-use Mysiar\TestBundle\Unit\UnitTestCase;
+use PHPUnit\Framework\TestCase;
 
-class AbstractFactoryTest extends UnitTestCase
+class AbstractFactoryTest extends TestCase
 {
     /** @var CarFactory */
     private $factory;

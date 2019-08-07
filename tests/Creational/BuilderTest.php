@@ -7,9 +7,9 @@ use DesignPattern\Creational\Builder\AipomBuilder;
 use DesignPattern\Creational\Builder\DrowzeeBuilder;
 use DesignPattern\Creational\Builder\Factory;
 use DesignPattern\Creational\Builder\Pokemon;
-use Mysiar\TestBundle\Unit\UnitTestCase;
+use PHPUnit\Framework\TestCase;
 
-class BuilderTest extends UnitTestCase
+class BuilderTest extends TestCase
 {
     public function testAipomBuilder(): void
     {
