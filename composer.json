@@ -7,7 +7,8 @@
     },
     "require-dev": {
         "mysiar/coding-standard": "^1.0",
-        "mysiar/test-bundle": "^0.0.9"
+        "mysiar/test-bundle": "^0.0.9",
+        "jakub-onderka/php-parallel-lint": "^1.0"
     },
     "license": "MIT",
     "authors": [
@@ -18,12 +19,23 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mysiar\\": "src/"
+            "DesignPattern\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mysiar\\Tests\\": "tests/"
+            "DesignPattern\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=./ruleset.xml --extensions=php",
+        "phpcbf": "phpcbf --standard=./ruleset.xml --extensions=php",
+        "php-lint": "parallel-lint --exclude tests/app --exclude vendor .",
+        "phpunit": "phpunit --no-coverage",
+        "test": [
+            "@php-lint",
+            "@phpcs",
+            "@phpunit"
+        ]
     }
 }
