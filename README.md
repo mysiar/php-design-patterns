@@ -13,3 +13,4 @@ as easy as possible :)
 * Pool
 * Prototype
 * Simple Factory
+* Singleton

@@ -3,9 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPattern\Creational\Multiton;
 
-/**
- * THIS IS CONSIDERED TO BE AN ANTI-PATTERN!
- */
+/** THIS IS CONSIDERED TO BE AN ANTI-PATTERN! */
 
 final class Multiton
 {
