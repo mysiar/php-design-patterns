@@ -8,4 +8,8 @@ as easy as possible :)
 
 * Abstract Factory
 * Builder
-* 
+* Factory Method
+* Multiton
+* Pool
+* Prototype
+* Simple Factory
