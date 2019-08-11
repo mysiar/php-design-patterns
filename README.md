@@ -14,3 +14,4 @@ as easy as possible :)
 * Prototype
 * Simple Factory
 * Singleton
+* Static Factory
