@@ -15,3 +15,7 @@ as easy as possible :)
 * Simple Factory
 * Singleton
 * Static Factory
+
+### Structural
+
+* Adapter/Wrapper
